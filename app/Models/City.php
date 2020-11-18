@@ -1,10 +1,12 @@
 <?php
+
 namespace App\Models;
 
-use ManaPHP\Db\Model;
+use ManaPHP\Data\Db\Model;
 
 /**
  * Class App\Models\City
+ *
  * @property \App\Models\Country $country
  */
 class City extends Model

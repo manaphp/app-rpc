@@ -11,13 +11,21 @@ class TimeController extends Controller
         return ['*' => '*'];
     }
 
-    public function helloAction()
-    {
-        return $this->response->setContent('hello world!');
-    }
-
+    /**
+     * @return int
+     */
     public function currentAction()
     {
         return time();
+    }
+
+    /**
+     * @param int $second
+     *
+     * @return int
+     */
+    public function afterAction($second = 0)
+    {
+        return time() + $second;
     }
 }

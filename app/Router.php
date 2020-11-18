@@ -1,9 +1,10 @@
 <?php
+
 namespace App;
 
 use App\Controllers\TimeController;
 
-class Router extends \ManaPHP\Router
+class Router extends \ManaPHP\Http\Router
 {
     public function __construct()
     {
