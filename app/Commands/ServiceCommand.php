@@ -2,7 +2,7 @@
 
 namespace App\Commands;
 
-class ServiceCommand extends Command
+class ServiceCommand extends \ManaPHP\Rpc\Command
 {
 
 }
